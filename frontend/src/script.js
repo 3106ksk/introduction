@@ -1,7 +1,7 @@
-import aboutSvg from './docs/images/about.svg';
-import hobbySvg from './docs/images/hobby.svg';
-import trainingSvg from './docs/images/training.svg';
-import worksSvg from './docs/images/works.svg';
+import aboutSvg from './images/about.svg';
+import hobbySvg from './images/hobby.svg';
+import trainingSvg from './images/training.svg';
+import worksSvg from './images/works.svg';
 
 const topics = [
   {
