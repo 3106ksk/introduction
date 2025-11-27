@@ -1,3 +1,8 @@
+import aboutSvg from './docs/images/about.svg';
+import hobbySvg from './docs/images/hobby.svg';
+import trainingSvg from './docs/images/training.svg';
+import worksSvg from './docs/images/works.svg';
+
 const topics = [
   {
     id: 'about',
@@ -9,7 +14,7 @@ const topics = [
       '「どこでも生きていけるスキル＝プログラミング」を取りにいくため広島へ戻って学び直し中。',
       'RUNTEQには2025/11/22入学、75期Bクラスの一兵卒としてスタート。'
     ],
-    image: 'docs/images/about.svg'
+    image: aboutSvg
   },
   {
     id: 'hobby',
@@ -21,7 +26,7 @@ const topics = [
       'イギリス時代にパブ文化にどっぷり浸かってしまって、ビール好きはもはや職業病みたいなものだ。',
       '来年はソロキャンにも挑戦にも挑戦したい。'
     ],
-    image: 'docs/images/hobby.svg'
+    image: hobbySvg
   },
   {
     id: 'training',
@@ -33,7 +38,7 @@ const topics = [
       '身体のトレーニングだけだとバランス悪いから、英会話や海外生活で「脳みそに負荷をかけるトレーニング」もやってきたつもりだ。',
       'オーストラリア、アメリカ、イギリス…と渡り歩いて、“度胸”だけはそこそこ鍛えられた。'
     ],
-    image: 'docs/images/training.svg'
+    image: trainingSvg
   },
   {
     id: 'works',
@@ -43,7 +48,7 @@ const topics = [
       '最初の作品は、大学時代にProgateで学びながら作った。今思えば、よくあれでドヤれたな、と過去の自分を軽く殴りたいレベルだ。',
       'そのあとはワーホリ中にフロント・バックエンド・DBのJavaScriptフルスタックの健康管理アプリを作った。'
     ],
-    image: 'docs/images/works.svg'
+    image: worksSvg
   }
 ];
 
